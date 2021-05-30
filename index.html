@@ -19,25 +19,30 @@
   <!--CSS stylesheet-->
   <link rel="stylesheet" href="styles.css">
 
-  <title>AlAmiirahLDN</title>
+  <title>ElAmiirahLDN</title>
 </head>
 
 <body>
 
-  <!--JumboTron-->
-  <nav class="navbar navbar-light bg-light">
+  <!--NavBar-->
+  <nav class="topbar navbar">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="images/ElAmiirahLDN-Logo.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
-        ElAmiirahLDN
-      </a>
+        <img src="images/ElAmiirahLDN-30x30.png" alt="" width="25" height="25" class="d-inline-block align-text-top"> ELAMIIRAHLDN</a>
     </div>
+
+  <p class="shopping-cart">Shopping Cart</p>
+
+
   </nav>
 
 
 
 
   <!-- Carousel -->
+  <div class="container-flex ">
+
+
 
   <div id="Carousel-Main" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -50,6 +55,8 @@
     </div>
 
 
+
+
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="images/Arwa-bag.jpg" class="carousel-image d-block w-100" alt="...">
@@ -59,7 +66,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="images/Celina-bag.jpg" class="carousel-image d-block w-100" alt="...">
+        <img src="images/Celina-bag.jpg" class="carousel-image carousel-bg d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Shop Celina Bags</h5>
           <p>Some representative placeholder content for the second slide.</p>
@@ -99,6 +106,7 @@
 
 
     </div>
+
     <button class="carousel-control-prev" type="button" data-bs-target="#Carousel-Main" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
@@ -108,123 +116,111 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  </div>
 
+  </div>
 
   <!--End Of Carousel -->
 
 
   <!-- Shop -->
-  <div class="shop-content container-fluid">
+  <div class="main-content container-fluid container-md">
 
     <!--Content NavBar-->
 
-    <div class="navbar row align-items-start">
+    <div class="subtitle row align-items-start">
       <div class="col">
-        <h3><a class="navbar-text" href="">Arwa Bags</a></h3>
+        <h3><a class="navbar-text" href="#arwa-bag">Arwa Bag</a></h3>
       </div>
       <div class="col">
-        <h3><a class="navbar-text" href="">Celina Bags</a></h3>
+        <h3><a class="navbar-text" href="#celina-bag">Celina Bag</a></h3>
       </div>
       <div class="col">
-        <h3><a class="navbar-text" href="">The Elina Collection</a></h3>
+        <h3><a class="navbar-text" href="#elina-bag">The Elina Collection</a></h3>
       </div>
       <div class="col">
-        <h3><a class="navbar-text" href="">Kaleelah Bags</a></h3>
+        <h3><a class="navbar-text" href="#kaleelah-bag">Kaleelah Bag</a></h3>
       </div>
       <div class="col">
-        <h3><a class="navbar-text" href="">Hidaya Bags</a></h3>
+        <h3><a class="navbar-text" href="#hidaya-bag">Hidaya Bag</a></h3>
       </div>
       <hr>
     </div>
 
-
-
     <!-- Content here -->
-    <div class="row align-items-start">
+    <div class=" row align-items-start">
       <!-- Arwa Collection -->
-      <h2>Shop Arwa Bags</h2>
       <div class="col">
-        <div class="shop-content-image">
-          <img src="images/Arwa.jpeg" width="250" height="250">
-          <p>Arwa Bag Green</p>
-          <p>£17.99</p>
+        <div>
+          <a class="navbar-text" href="product-page-arwa.html">
+            <img class="shop-content-image fade-on-keypress" src="images/Arwa.jpeg" width="250" height="250">
+            <p class="item-name-value">Arwa Bag<br>£17.99</p>
+          </a>
+
         </div>
       </div>
-    </div>
 
-
-    <div class="row align-items-start">
       <!-- Celina Collection -->
-      <h2>Shop Celina Bags</h2>
-
       <div class="col">
-        <div class="shop-content-image">
-          <img src="images/Celina.jpeg" width="250" height="250">
-          <p>Celina Bag White</p>
-          <p>£11.99</p>
+        <div>
+          <a class="navbar-text" href="product-page-celina.html">
+            <img class="shop-content-image fade-on-keypress" src="images/Celina.jpeg" width="250" height="250">
+            <p class="item-name-value">Celina Bag<br>£11.99</p>
+          </a>
         </div>
       </div>
-    </div>
 
-    <div class="row align-items-start">
       <!-- Elina Collection -->
-      <h2>The Elina Collection</h2>
-
       <div class="col">
-        <div class="shop-content-image">
-          <img src="images/PS-Elina-collection-black.jpeg" width="250" height="250">
-          <p>Elina Collection Black</p>
-          <p>£15.99</p>
+        <div>
+          <a class="navbar-text" href="product-page-elina-collection.html">
+            <img class="shop-content-image fade-on-keypress" src="images/PS-Elina-collection-black.jpeg" width="250" height="250">
+            <p class="item-name-value">Elina Black<br>£15.99</p>
+          </a>
         </div>
       </div>
 
       <div class="col">
-        <div class="shop-content-image">
-          <img src="images/PS-Elina-collection-cream.jpeg" width="250" height="250">
-          <p>Elina Collection Cream</p>
-          <p>£15.99</p>
+        <div>
+          <a class="navbar-text" href="product-page-elina-collection.html">
+            <img class="shop-content-image fade-on-keypress" src="images/PS-Elina-collection-cream.jpeg" width="250" height="250">
+            <p class="item-name-value">Elina Cream<br>£15.99</p>
+          </a>
         </div>
       </div>
 
       <div class="col">
-        <div class="shop-content-image">
-          <img src="images/PS-Elina-collection-grey.jpeg" width="250" height="250">
-          <p>Elina Collection Grey</p>
-          <p>£15.99</p>
+        <div>
+          <a class="navbar-text" href="product-page-elina-collection.html">
+            <img class="shop-content-image fade-on-keypress" src="images/PS-Elina-collection-grey.jpeg" width="250" height="250">
+            <p class="item-name-value">Elina Grey<br>£15.99</p>
+          </a>
         </div>
       </div>
-    </div>
 
-    <div class="row align-items-start">
       <!-- Kaleelah Collection-->
-      <h2>Shop Kaleelah Bags</h2>
 
       <div class="col">
-        <div class="shop-content-image">
-          <img src="images/Kaleelah.jpeg" width="250" height="250">
-          <p>Kaleelah Bag Brown</p>
-          <p>£21.99</p>
+        <div>
+          <a class="navbar-text" href="product-page-kaleelah.html">
+            <img class="shop-content-image fade-on-keypress" src="images/Kaleelah.jpeg" width="250" height="250">
+            <p class="item-name-value">Kaleelah Bag<br>£21.99</p>
+          </a>
         </div>
       </div>
-    </div>
-
-    <div class="row align-items-start">
-
       <!-- Hidaya Collection -->
 
-      <h2>Shop Hidaya Bags</h2>
-
       <div class="col">
-        <div class="shop-content-image">
-          <img src="images/Hidaya.jpeg" width="250" height="250">
-          <p>Hidaya Bag Black</p>
-          <p>£20.99</p>
+        <div>
+          <a class="navbar-text" href="product-page-hidaya.html">
+            <img class="shop-content-image fade-on-keypress" src="images/Hidaya.jpeg" width="250" height="250">
+            <p class="item-name-value">Hidaya Bag Black<br>£20.99</p>
+          </a>
         </div>
       </div>
-
     </div>
   </div>
+
+  <h2 class=""><a class="return" href="#">Back to Top</a></h2>
 
 </body>
 
